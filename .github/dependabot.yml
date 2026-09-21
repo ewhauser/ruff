@@ -5,9 +5,11 @@ updates:
     schedule:
       interval: "weekly"
     labels: ["internal"]
+    open-pull-requests-limit: 0
 
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
       interval: "weekly"
     labels: ["internal"]
+    open-pull-requests-limit: 0
